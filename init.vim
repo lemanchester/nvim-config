@@ -22,6 +22,12 @@ nmap <S-Tab> gT
 cmap <C-e> <C-r>=expand('%:p:h')<CR>/
 nmap <leader>] :noh<Enter>
 
+" disable cursor/arrows
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
 let g:solarized_termcolors=256
 syntax enable
 set background=dark
