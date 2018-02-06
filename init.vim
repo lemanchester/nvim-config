@@ -4,6 +4,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-surround'
 Plug 'altercation/vim-colors-solarized'
+Plug 'google/vim-searchindex'
+Plug 'tpope/vim-commentary'
+Plug 'ervandew/supertab'
 
 call plug#end()
 
