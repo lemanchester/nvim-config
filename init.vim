@@ -7,6 +7,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'google/vim-searchindex'
 Plug 'tpope/vim-commentary'
 Plug 'ervandew/supertab'
+Plug 'mxw/vim-jsx'
 
 call plug#end()
 
@@ -49,6 +50,7 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+let g:jsx_ext_required = 0
 let g:solarized_termcolors=256
 syntax enable
 set background=dark
