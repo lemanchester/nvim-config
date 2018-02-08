@@ -16,9 +16,27 @@ set number
 set nowrap
 " enable mouse
 set mouse=a
-
+" auto indent
 set autoindent
+" list options in command mode
+set wildmode=list:longest
+" always display statusline
+set laststatus=2
+" highlight search
+set hlsearch
+" highlight search incrementally whily typing
+set incsearch
+" show relative numbers
+set relativenumber
 
+" statusline
+set statusline=%f       "path to the file
+set statusline+=%=      "left/right separator
+set statusline+=\ %y    "filetype
+set statusline+=\ %c,   "cursor column
+set statusline+=%l/%L   "cursor line/total lines
+
+" mappings
 nnoremap Y y$
 nmap <Tab> gt
 nmap <S-Tab> gT
