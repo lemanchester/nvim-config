@@ -8,6 +8,7 @@ Plug 'google/vim-searchindex'
 Plug 'tpope/vim-commentary'
 Plug 'ervandew/supertab'
 Plug 'mxw/vim-jsx'
+Plug 'tpope/vim-cucumber'
 
 call plug#end()
 
