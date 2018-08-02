@@ -9,6 +9,7 @@ Plug 'tpope/vim-commentary'
 Plug 'ervandew/supertab'
 Plug 'mxw/vim-jsx'
 Plug 'tpope/vim-cucumber'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
