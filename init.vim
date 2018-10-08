@@ -10,6 +10,7 @@ Plug 'ervandew/supertab'
 Plug 'mxw/vim-jsx'
 Plug 'tpope/vim-cucumber'
 Plug 'scrooloose/nerdtree'
+Plug 'posva/vim-vue'
 
 call plug#end()
 
