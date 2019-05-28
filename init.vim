@@ -11,6 +11,7 @@ Plug 'mxw/vim-jsx'
 Plug 'tpope/vim-cucumber'
 Plug 'scrooloose/nerdtree'
 Plug 'posva/vim-vue'
+Plug 'stephpy/vim-yaml'
 
 call plug#end()
 
