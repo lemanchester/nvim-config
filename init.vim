@@ -12,6 +12,7 @@ Plug 'tpope/vim-cucumber'
 Plug 'scrooloose/nerdtree'
 Plug 'posva/vim-vue'
 Plug 'stephpy/vim-yaml'
+Plug 'chr4/nginx.vim'
 
 call plug#end()
 
